@@ -4,8 +4,7 @@ import YTSeach from 'youtube-api-search'
 import VideoList from './components/video_list'
 import SeachBar from './components/search_bar';
 import VideoDetail from './components/video_detail'
-
-const API_KEY = 'AIzaSyD6RHPcNkdGIRhY8PUBjW2myj33hUiRp8w';
+import API_KEY from '../conf/youtube-api-key'
 
 class App extends Component{
 
